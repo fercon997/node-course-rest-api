@@ -40,7 +40,7 @@ otherTodo.save().then((doc) => console.log(JSON.stringify(doc, undefined, 2)),
 (e) => console.log("Unable to save todo"));*/
 
 var newUser = new User({
-
+  email: "fercon997@gmail.com"
 });
 
 newUser.save().then((doc) => console.log('User saved ',doc),
